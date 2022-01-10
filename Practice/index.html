@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=The+Nautigal:wght@400;700&display=swap" rel="stylesheet">
+    <link rel ="stylesheet" href= "style.css">
+    <script src="https://kit.fontawesome.com/05baa421cf.js" crossorigin="anonymous"></script>
+    <link rel = "icon" href = "img/favicon.jpg">
+    <script src = "main.js" defer></script>
+    <title>Portfolio WebPage</title>
+</head>
+<body>
+    <i class="fas fa-arrow-up" id = "arrowUp"></i>
+    <nav id = "navBox">
+        <div class = "logoBox">
+            <i class="fab fa-staylinked"></i>
+            <span>강일모</span>
+        </div>
+
+        <ul class="menuBox">
+            <li class="menuBox__menuItem active" data-key="#home">Home</li>
+            <li class="menuBox__menuItem" data-key="#about">About</li>
+            <li class="menuBox__menuItem" data-key="#skills">Skills</li>
+            <li class="menuBox__menuItem" data-key="#myworks">My Works</li>
+            <li class="menuBox__menuItem" data-key="#testimonials">Testimonials</li>
+            <li class="menuBox__menuItem" data-key="#contact">Contact</li>
+        </ul>
+
+        <button class = "toggle">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <section id = "home" class = "mainFrame">
+        <section class = "container">
+            <img src="img/favicon.jpg" class = "mainImage">
+            <h1>Hello, I'm Ilmo Kang</h1>
+            <h2>A Front-End Developer who want to be a Full-Stack Engineer</h2>
+            <button class = "homeContactBtn" data-key="#contact">Contact Me</button>
+        </section>
+    </section>
+
+    <section id ="about" class = "mainFrame">
+        <section class = "container">
+            <h1>About Me</h1>
+            <p>Description Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste commodi dolorum recusandae possimus. Accusantium ipsam fuga at quisquam. Itaque, molestiae asperiores dolore in voluptatibus rerum amet quia dicta cumque inventore!</p>
+            <div class = "meDescriptions">
+                <div class="meDescription">
+                    <img src = 'img/html5.png' class = "meDesImg">
+                    <h2>HTML5</h2>
+                    <p>a,b,c,d,e,f</p>
+                </div>
+                <div class="meDescription">
+                    <img src = 'img/css.png' class = "meDesImg">
+                    <h2>CSS</h2>
+                    <p>a,b,c,d,e,f</p>
+                </div>
+                <div class="meDescription">
+                    <img src = 'img/js.png' class = "meDesImg">
+                    <h2>JAVASCRIPT</h2>
+                    <p>a,b,c,d,e,f</p>
+                </div>
+            </div>
+
+            <div class = "mycareers">
+                <div class="mycareer">
+                    <img src = "img/cnu.jpg" class = "careerIcon">
+                    <div class = "careerDescription">
+                        <span>Chungnam National University, CSE</span>
+                        <span>2022 - now</span>
+                    </div>
+                </div>
+                <div class="mycareer">
+                    <img src = "img/cnu.jpg" class = "careerIcon">
+                    <div class = "careerDescription">
+                        <span>Chungnam National University, EE</span>
+                        <span>2018 -2022</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section id = "skills" class = "mainFrame">
+        <section class = "container">
+            <h1>Skills</h1>
+            <h2>Skills & Attributes</h2>
+            <p>Experience with all phases of the software life-cycle. Passion for learning new Technologies.
+                Capable of working within a team enviroment and independently. Ability to plan and time schedule,
+                work under strict time pressure and adpat quickly when needed.</p>
+            <div class="descriptionBox">
+                <div class="descriptionBox__left">
+                    <h3>Skills</h3>
+                    <div class="skillDescription">
+                        <div class="skillName">
+                            <span>HTML</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skillGaugeBox">
+                            <div class="skillGauge" style = "width: 70%;"></div>
+                        </div>
+                    </div>
+                    <div class="skillDescription">
+                        <div class="skillName">
+                            <span>CSS</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="skillGaugeBox">
+                            <div class="skillGauge" style = "width: 60%;"></div>
+                        </div>
+                    </div>
+                    <div class="skillDescription">
+                        <div class="skillName">
+                            <span>JAVASCRIPT</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="skillGaugeBox">
+                            <div class="skillGauge" style = "width: 50%;"></div>
+                        </div>
+                    </div>
+                    <div class="skillDescription">
+                        <div class="skillName">
+                            <span>TYPESCRIPT</span>
+                            <span>0%</span>
+                        </div>
+                        <div class="skillGaugeBox">
+                            <div class="skillGauge" style = "width: 0%;"></div>
+                        </div>
+                    </div>
+                    <div class="skillDescription">
+                        <div class="skillName">
+                            <span>React</span>
+                            <span>0%</span>
+                        </div>
+                        <div class="skillGaugeBox">
+                            <div class="skillGauge" style = "width: 0%;"></div>
+                        </div>
+                    </div>
+                    <div class="skillDescription">
+                        <div class="skillName">
+                            <span>NodeJS</span>
+                            <span>0%</span>
+                        </div>
+                        <div class="skillGaugeBox">
+                            <div class="skillGauge" style = "width: 0%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="descriptionBox__right">
+                    <div class="tools">
+                        <h3>Tools</h3>
+                        <h4>Android Developement Tools</h4>
+                        <h4>IOS Developement tools</h4>
+                        <h4>Visual Studio Code</h4>
+                        <h4>Team Foundation</h4>
+                        <h4>Adobe Programs</h4>
+                    </div>
+                    <div class="etc">
+                        <h3>Etc</h3>
+                        <h4>git</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section id = "myworks" class = "mainFrame">
+        <section class="container">
+            <h1>My Works</h1>
+            <div class="buttonBox">
+                <button class="category active" data-key="All">All<span class = "categoryCount">8</span></button>
+                <button class="category" data-key="Front-End">Front-End<span class = "categoryCount">2</span></button>
+                <button class="category" data-key="Back-End">Back-End<span class = "categoryCount">3</span></button>
+                <button class="category" data-key="Mobile">Mobile<span class = "categoryCount">3</span></button>
+            </div>
+
+            <div class="workItems">
+                <div class="workItem" data-value = "Front-End">
+                    <a href="https://namu.wiki/w/aespa" class = "workItem__a">
+                        <img src="img/aespa.jpg" alt="" class="itemImage">
+                        <div class="workItem__Description">
+                            <h3>Aespa</h3>
+                            <p>상세설명 보기</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="workItem" data-value = "Front-End">
+                    <a href="https://namu.wiki/w/%ED%94%84%EB%A1%9C%EB%AF%B8%EC%8A%A4%EB%82%98%EC%9D%B8" class = "workItem__a">
+                        <img src="img/fromis9.jpg" alt="" class="itemImage">
+                        <div class="workItem__Description">
+                            <h3>프로미스나인</h3>
+                            <p>상세설명 보기</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="workItem" data-value = "Back-End">
+                    <a href="https://namu.wiki/w/%EC%98%A4%EB%A7%88%EC%9D%B4%EA%B1%B8" class = "workItem__a">
+                        <img src="img/ohmygirl.jpg" alt="" class="itemImage">
+                        <div class="workItem__Description">
+                            <h3>오마이걸</h3>
+                            <p>상세설명 보기</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="workItem" data-value = "Back-End">
+                    <a href="https://namu.wiki/w/Red%20Velvet?from=%EB%A0%88%EB%93%9C%EB%B2%A8%EB%B2%B3" class = "workItem__a">
+                        <img src="img/redvelvet.jpg" alt="" class="itemImage">
+                        <div class="workItem__Description">
+                            <h3>Red Velvet</h3>
+                            <p>상세설명 보기</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="workItem" data-value = "Back-End">
+                    <a href="https://namu.wiki/w/STAYC?from=%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%94%A8" class = "workItem__a">
+                        <img src="img/stayc.png" alt="" class="itemImage">
+                        <div class="workItem__Description">
+                            <h3>StayC</h3>
+                            <p>상세설명 보기</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="workItem" data-value = "Mobile">
+                    <a href="https://naver.com"  class = "workItem__a">
+                        <img src="img/html5.png" alt="" class="itemImage">
+                        <div class="workItem__Description">
+                            <h3>Naver</h3>
+                            <p>상세설명 보기</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="workItem" data-value = "Mobile">
+                    <a href="https://naver.com" class = "workItem__a">
+                        <img src="img/css.png" alt="" class="itemImage">
+                        <div class="workItem__Description">
+                            <h3>Naver</h3>
+                            <p>상세설명 보기</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="workItem" data-value = "Mobile">
+                    <a href="https://naver.com" class = "workItem__a">
+                        <img src="img/js.png" alt="" class="itemImage">
+                        <div class="workItem__Description">
+                            <h3>Naver</h3>
+                            <p>상세설명 보기</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section id = "testimonials" class = "mainFrame">
+        <section class = "container">
+            <h1>Testimonials</h1>
+            <h2>See what they say about me</h2>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <img src = 'img/aespa.jpg' class = "interviewerImg">
+                    <div class="interview">
+                        <p>I'm on the Next Level Yeah
+                            절대적 룰을 지켜
+                            내 손을 놓지 말아
+                            결속은 나의 무기
+                            광야로 걸어가
+                            알아 네 Home ground
+                            위협에 맞서서
+                            제껴라 제껴라 제껴라
+                            상상도 못한 Black out
+                            유혹은 깊고 진해
+                            (Too hot too hot)
+                            맞잡은 손을 놓쳐
+                            난 절대 포기 못해
+                            I'm on the Next Level
+                            저 너머의 문을 열어
+                            Next Level
+                            널 결국엔 내가 부셔
+                            Next Level
+                            KOSMO에 닿을 때까지
+                            Next Level
+                            제껴라 제껴라 제껴라</p>
+                            <a href="https://www.smtown.com" class="interviewer"><span>AESPA</span><span> / SM Ent.</span></a>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <img src = 'img/ohmygirl.jpg' class = "interviewerImg">
+                    <div class="interview">
+                        <p>유성이 비처럼 쏟아지는 하늘
+                            그 아래 너와 함께 춤추고 싶어
+                            색색의 옷들과 예쁜 액세서리
+                            oh baby
+                            흐르는 저 음악이
+                            내 맘을 설레게 하지
+                            I feel the disco rhythm in my body
+                            다른 아무것도 생각하진 마
+                            yeah 발자국으로 가득한
+                            무대 위에 올라
+                            자유로운 몸짓 그 사랑스런 느낌
+                            저 따분했던 하루와
+                            일상에서 벗어나 oh tonight
+                            Just you and I
+                            지구를 등지고 떠올라
+                            맘껏 crazy crazy crazy 긴 춤을 춰
+                            말리지 마 지금 내 기분은
+                            feel so high
+                            멀리 멀리 멀리 다 눈부셔</p>
+                            <a href="https://www.wment.co.kr" class="interviewer"><span>오마이걸</span><span> / WM Ent.</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section id = "contact" class = "mainFrame">
+        <section class = "container">
+            <h1>Let's Talk</h1>
+            <h2>rkddlfah02@naver.com</h2>
+            <div class="contactBox">
+                <a href="https://github.com" class = "contact"><i class="fab fa-github"></i></a>
+                <a href="https://google.com" class = "contact"><i class="fab fa-google"></i></a>
+            </div>
+            <p>2022 All rights reserved</p>
+        </section>
+    </section>
+</body>
+</html>
