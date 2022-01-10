@@ -157,7 +157,7 @@ p {
 #home {
   margin-top: 0px;
   color: white;
-  background: no-repeat center/cover url("/img/home-background.jpg");
+  background: no-repeat center/cover url("../img/home-background.jpg");
 }
 
 .meDescriptions {
